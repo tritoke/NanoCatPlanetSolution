@@ -9,3 +9,5 @@ Then increase offset_y until you get the watermark - offset_y = 26.
 You can then use the CLI to recover the flag.
 `cargo run --release -- cli --orig-img planet_orig.png --watermarked-img planet_fixed.png --output-img flag.png --dx 5809 --dy 26`
 
+![](flag.jpg)
+
