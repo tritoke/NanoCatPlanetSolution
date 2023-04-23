@@ -1,0 +1,14 @@
+[package]
+name = "cw"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+clap = { version = "4.2.4", features = ["derive"] }
+eframe = "0.21.3"
+egui = "0.21.0"
+image = "0.24.6"
+rayon = "1.7.0"
