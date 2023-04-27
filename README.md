@@ -11,3 +11,8 @@ You can then use the CLI to recover the flag.
 
 ![](flag.jpg)
 
+Later on in a VC with some friends we found another solution at 5809,601 and worked out the of the function is 575, with this we found 5809,2901 which we believe to be the original watermark image.
+`cargo run --release -- cli --orig-img planet_orig.png --watermarked-img planet_fixed.png --output-img flag.png --dx 5809 --dy 2901`
+
+![](correct.jpg)
+
